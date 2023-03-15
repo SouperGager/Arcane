@@ -1,0 +1,236 @@
+body{
+  overflow-x: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%; /* subtract any margins or padding on the left */
+  height: calc(100% - 370px); /* subtract any margins or padding on the top or bottom */
+  background-color: #1f2937;
+}
+
+.div1, .div2, .div3 {
+  width: 300px;
+  height: 100px;
+  position: absolute;  
+}
+.div1 {
+  top: 0;
+  right: -30px;
+}
+.div2 {
+  top: 0;  
+  right: 40px;
+}
+.div3 {
+  top: 0;
+  right: 130px;
+}
+
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #d4a67c; 
+}
+
+/* .container .logo {
+  font-weight: bold;
+  font-size: 32px;
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+} */
+
+h1{
+  font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  width: 600px;
+  position: absolute;
+  top: 140px;
+  left: 90px;
+  color: #fbb568;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+p1{
+  font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  width: 600px;
+  position: absolute;
+  top: 320px;
+  left: 90px;
+  color: #d4a67c;
+  font-size: 16px;  
+}
+
+.image-placeholder {
+  position: absolute;
+  width: 600px;
+  height: auto;
+  top: 110px;
+  right: 210px;
+  border: 5px #956b4b solid;
+}
+
+button{
+  position: absolute;
+  top: 470px;
+  left: 90px;
+  width: 100px;
+  height: 30px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+
+}
+button:hover {
+  opacity: 0.8;
+}
+
+h2{
+  position: absolute;
+  font-size: 36px;
+  font-weight: extra bold;
+  color: #1f2937;
+  top: 560px;
+  left: 730px;
+  font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vi, .vi-text{
+  left: 550px;
+}
+
+.part2 img{
+   position: absolute;
+  width: 170px;
+  height: auto;
+  top: 670px;
+  border:#956b4b  5px solid;
+  border-radius: 6px;
+}
+
+.jinx, .jinx-text{
+  left: 750px;
+}
+
+.caitlyn, .caitlyn-text{
+  left: 950px;
+}
+
+.ekko, .ekko-text{
+  left: 1150px;
+}
+
+.part2 p{
+  position: absolute;
+  width: 170px;
+  color: #1f2937;
+  font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  top: 980px;
+  text-align: center;
+}
+
+
+.vi:hover, .jinx:hover, .caitlyn:hover, .ekko:hover {
+  opacity: 0.8;
+}
+
+  .ref{
+  position: absolute;
+  top: 1050px;
+  right: 0;
+  width: 100%; 
+  height: calc(100% - 570px); /* subtract any margins or padding on the top or bottom */
+  background-color: #e5e7eb
+}
+
+.ref-text{
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  padding: 100px;
+}
+.ref-id{
+  position: absolute;
+  top: 245px;
+  text-align: right;
+  left: 1400px;
+  font-size: 36px;
+  font-style: bold;
+  font-weight:  bold;
+  color: #1f2937;
+  font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.action{
+  position: absolute;
+   border: 2px solid #3882f6;
+  padding: 20px;
+  height: 100px;
+  width: 1350px;
+  background-color: #3882f6;
+  top: 1500px;
+  left: 260px;
+  border-radius: 10px;
+}
+
+.action-text{
+  position: absolute;
+    font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9faf8;
+    font-size: 26px;
+   top: 20%;
+   left: 16%;
+}
+.action-para{
+  position: absolute;
+  font-family: Tahoma, Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9faf8;
+    font-size: 16px;
+   top: 50%;
+  left: 16%;
+  }
+
+.action button{
+position: absolute;
+  top: 50px;
+  left: 80%;
+  border: 2px solid #f9faf8;
+  width: 140px;
+  height: 40px;
+}
+
+.fotter{
+  position: absolute;
+  height: 120px;
+  width: 100%;
+  top: 1700px;
+  background-color: #1f2937;
+  left:0%
+}
+
+.copyright{
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  color: #f9faf8;
+}
+
+.arcane-logo{
+  position: absolute;
+  width: 150px;
+  height: auto;
+  top: 10px;
+  left: 10px;
+}
